@@ -49,7 +49,7 @@ function _omb_directories_cd {
 }
 _omb_util_alias cd='_omb_directories_cd'
 
-_omb_util_alias cd..='cd ../'                         # Go back 1 directory level (for fast typers)
+#_omb_util_alias cd..='cd ../'                         # Go back 1 directory level (for fast typers)
 _omb_util_alias ..='cd ../'                           # Go back 1 directory level
 _omb_util_alias ...='cd ../../'                       # Go back 2 directory levels
 _omb_util_alias .3='cd ../../../'                     # Go back 3 directory levels
@@ -70,7 +70,7 @@ _omb_util_alias 9='cd -9'
 
 _omb_util_alias md='mkdir -p'
 _omb_util_alias rd='rmdir'
-_omb_util_alias d='dirs -v | head -10'
+#_omb_util_alias d='dirs -v | head -10'
 _omb_util_alias po='popd'
 
 # List directory contents

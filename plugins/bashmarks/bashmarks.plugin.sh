@@ -199,7 +199,7 @@ if [ $ZSH_VERSION ]; then
   compctl -K _compzsh bm -d
   compctl -K _compzsh g
   compctl -K _compzsh p
-  compctl -K _compzsh d
+  compctl -K _compzsh D
 else
   shopt -s progcomp
   complete -F _comp bm -g
@@ -207,10 +207,10 @@ else
   complete -F _comp bm -d
   complete -F _comp g
   complete -F _comp p
-  complete -F _comp d
+  complete -F _comp D
 fi
 
 alias s='bm -a'       # Save a bookmark [bookmark_name]
 alias g='bm -g'       # Go to bookmark [bookmark_name]
 alias p='bm -p'       # Print bookmark of a path [path]
-alias d='bm -d'       # Delete a bookmark [bookmark_name]
+alias D='bm -d'       # Delete a bookmark [bookmark_name]
