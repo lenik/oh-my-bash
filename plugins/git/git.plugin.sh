@@ -103,8 +103,8 @@ function gfg {
 }
 #compdef _grep gfg
 
-alias gg='command git gui citool'
-alias gga='command git gui citool --amend'
+#alias gg='command git gui citool'
+#alias gga='command git gui citool --amend'
 
 function ggf {
   [[ "$#" != 1 ]] && local b="$(git_current_branch)"
