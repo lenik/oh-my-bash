@@ -30,7 +30,7 @@ function _omb_util_alias_select_cp {
     _omb_command='cp -i'
   fi
 }
-_omb_util_alias_delayed cp force
+#_omb_util_alias_delayed cp force
 
 # Preferred 'mv' implementation
 function _omb_util_alias_select_mv {
@@ -40,7 +40,7 @@ function _omb_util_alias_select_mv {
     _omb_command='mv -i'
   fi
 }
-_omb_util_alias_delayed mv force
+#_omb_util_alias_delayed mv force
 
 # Preferred 'mkdir' implementation
 function _omb_util_alias_select_mkdir {
@@ -50,7 +50,7 @@ function _omb_util_alias_select_mkdir {
     _omb_command='mkdir -p'
   fi
 }
-_omb_util_alias_delayed mkdir force
+#_omb_util_alias_delayed mkdir force
 
 # Preferred 'nano' implementation
 function _omb_util_alias_select_nano {
